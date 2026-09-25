@@ -1,0 +1,17 @@
+{
+  "name": "hangzhou-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@slidev/cli": "^53.0.0",
+    "@slidev/theme-default": "^0.25.0"
+  },
+  "private": true
+}
