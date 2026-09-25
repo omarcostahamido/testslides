@@ -24,7 +24,7 @@ drawings:
 
 <div class="mt-10 opacity-70">
 
-Omar Costa Hamido · 奥马尔·科斯塔·哈米多<br>
+Omar Costa Hamido<br>
 2026 Annual Theme Summit on Electronic Music · Hangzhou
 
 </div>
@@ -88,7 +88,6 @@ class: text-center
 
 # All good? 一切正常？
 
-If every slide worked, please reply to Omar.<br>
-如以上各页均正常显示，请回复告知，谢谢！
+If every slide worked, please reply to OCH.
 
 <div class="mt-8 text-sm opacity-60">F = fullscreen 全屏 · ← → navigate 翻页</div>
