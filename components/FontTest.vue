@@ -3,7 +3,7 @@ import { onMounted, reactive } from 'vue'
 
 const TIMEOUT = 8000
 const base = import.meta.env.BASE_URL
-const zh = '逻辑之上艺术在场，'
+const zh = '你好，能看清这行字吗？'
 
 type Row = {
   label: string
@@ -18,19 +18,19 @@ type Row = {
 
 const rows = reactive<Row[]>([
   { label: 'Bundled with the slides', host: 'same site 本站', kind: 'file',
-    url: `${base}fonts/lobster-latin-400-normal.woff2`, sample: 'Beyond Logic, Art in Presence' },
+    url: `${base}fonts/lobster-latin-400-normal.woff2`, sample: 'Hello, can you read this?' },
   { label: 'Google Fonts', host: 'fonts.googleapis.com', kind: 'css',
-    url: 'https://fonts.googleapis.com/css2?family=Lobster&text=' + encodeURIComponent('Beyond Logic, Art in Presence'), sample: 'Beyond Logic, Art in Presence' },
+    url: 'https://fonts.googleapis.com/css2?family=Lobster&text=' + encodeURIComponent('Hello, can you read this?'), sample: 'Hello, can you read this?' },
   { label: 'Google Fonts China', host: 'fonts.googleapis.cn', kind: 'css',
-    url: 'https://fonts.googleapis.cn/css2?family=Lobster&text=' + encodeURIComponent('Beyond Logic, Art in Presence'), sample: 'Beyond Logic, Art in Presence' },
+    url: 'https://fonts.googleapis.cn/css2?family=Lobster&text=' + encodeURIComponent('Hello, can you read this?'), sample: 'Hello, can you read this?' },
   { label: 'Loli mirror', host: 'fonts.loli.net', kind: 'css',
-    url: 'https://fonts.loli.net/css2?family=Lobster&text=' + encodeURIComponent('Beyond Logic, Art in Presence'), sample: 'Beyond Logic, Art in Presence' },
+    url: 'https://fonts.loli.net/css2?family=Lobster&text=' + encodeURIComponent('Hello, can you read this?'), sample: 'Hello, can you read this?' },
   { label: 'jsDelivr CDN', host: 'cdn.jsdelivr.net', kind: 'file',
-    url: 'https://cdn.jsdelivr.net/npm/@fontsource/lobster@5/files/lobster-latin-400-normal.woff2', sample: 'Beyond Logic, Art in Presence' },
+    url: 'https://cdn.jsdelivr.net/npm/@fontsource/lobster@5/files/lobster-latin-400-normal.woff2', sample: 'Hello, can you read this?' },
   { label: 'Chinese webfont · Google', host: 'fonts.googleapis.com', kind: 'css',
-    url: 'https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&text=' + encodeURIComponent(zh), sample: '逻辑之上，艺术在场' },
+    url: 'https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&text=' + encodeURIComponent(zh), sample: '你好，能看清这行字吗？'},
   { label: 'Chinese webfont · Google China', host: 'fonts.googleapis.cn', kind: 'css',
-    url: 'https://fonts.googleapis.cn/css2?family=ZCOOL+KuaiLe&text=' + encodeURIComponent(zh), sample: '逻辑之上，艺术在场' },
+    url: 'https://fonts.googleapis.cn/css2?family=ZCOOL+KuaiLe&text=' + encodeURIComponent(zh), sample: '你好，能看清这行字吗？' },
 ].map((r, i) => ({ ...r, status: 'waiting', detail: '…', family: `fonttest-${i}` } as Row)))
 
 function withTimeout<T>(p: Promise<T>, ms: number): Promise<T> {
