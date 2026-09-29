@@ -1,7 +1,7 @@
 ---
 theme: default
-title: Connection test · OCH · Hangzhou 2026
-info: Access test for the 2026 Annual Theme Summit on Electronic Music, Hangzhou
+title: Connection test
+info: Checks fonts, CJK text, image, audio and video on a presentation computer
 colorSchema: dark
 transition: slide-left
 fonts:
@@ -19,13 +19,13 @@ drawings:
 
 # Connection test
 
-### Cross Quantum Artistic Practices
-### 跨量子艺术实践
+### Presentation setup check 
+### 演示设备测试
 
 <div class="mt-10 opacity-70">
 
 Omar Costa Hamido<br>
-2026 Annual Theme Summit on Electronic Music · Hangzhou
+
 
 </div>
 
@@ -38,8 +38,8 @@ Omar Costa Hamido<br>
 If you can read both lines, fonts are working:
 
 <div class="mt-10 space-y-6" style="font-size:2.4rem; line-height:1.3">
-  <div>Beyond Logic, Art in Presence</div>
-  <div>逻辑之上，艺术在场</div>
+  <div>Hello, can you read this?</div>
+  <div>你好，能看清这行字吗？</div>
 </div>
 
 ---
@@ -88,6 +88,6 @@ class: text-center
 
 # All good? 一切正常？
 
-If every slide worked, please reply to OCH.
+If every slide worked, please let the speaker know.
 
 <div class="mt-8 text-sm opacity-60">F = fullscreen 全屏 · ← → navigate 翻页</div>
